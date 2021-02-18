@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Roboto&display=swap");
+body {
+  background-color: #CDB6C9;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: "Handlee", cursive;
+}
+
+h2, h3, h4, p, a {
+  font-family: "Roboto", sans-serif;
+}
+
+.about, .profile {
+  background-color: #3b5360;
+  color: white;
+}
+
+.profile {
+  border-bottom: 2px solid black;
+  padding: 1% 11%;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+.bitmoji {
+  max-width: 80%;
+}
+
+.content {
+  padding-top: 2%;
+}
+
+.copyright {
+  text-align: right;
+}
+
+.fa-linkedin {
+  color: #0e76a8;
+}
+
+.fa-github {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

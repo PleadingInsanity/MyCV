@@ -1,0 +1,71 @@
+//This is the SCSS file for my personal website
+
+//Imports from partials
+@import "partials/colors";
+@import "partials/fonts";
+
+// General Styles
+
+body {
+    background-color: $backgroundColor2; 
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    font-family: $fontFamily1;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-family: $fontFamily2;
+}
+
+h2, h3, h4, p, a {
+    font-family: $fontFamily1;
+}
+
+//Profile Styles
+
+.about {
+    background-color: $backgroundColor1;
+    color: $textColor1;
+}
+
+.profile {
+    @extend .about;
+    border-bottom: 2px solid black;
+    padding: 1% 11%;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+//Main Content Styles
+
+.bitmoji {
+    max-width: 80%;
+}
+
+.content {
+    padding-top: 2%;
+}
+
+//Contact Styles
+
+.copyright {
+    text-align: right;
+}
+
+.fa-linkedin {
+    color:  #0e76a8;
+}
+
+.fa-github {
+    color: black;
+}
